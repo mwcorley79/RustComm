@@ -8,7 +8,6 @@ Status: essentially complete.  Minor code clean-up and publishing performance st
 
 
 # Docker image build/run usage
-# ---------------------------
 - cd RustComm
 - docker build -t rustcomm .
 - docker run rustcomm
