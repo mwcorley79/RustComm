@@ -1,0 +1,5 @@
+# ignore these files, and do not include them in the image build context
+.git
+Dockerfile
+.dockerignore
+.gitignore
