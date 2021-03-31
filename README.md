@@ -5,3 +5,10 @@ Repository holds three synchronous Tcp-based message-passing communication crate
 - fixed sized messages with buffering
 
 Status: essentially complete.  Minor code clean-up and publishing performance stats remain.
+
+
+Docker image build/run usage
+---------------------------
+RustComm
+docker build -t rustcomm .
+docker run rustcomm
