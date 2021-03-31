@@ -7,8 +7,8 @@ Repository holds three synchronous Tcp-based message-passing communication crate
 Status: essentially complete.  Minor code clean-up and publishing performance stats remain.
 
 
-Docker image build/run usage
----------------------------
-RustComm
-docker build -t rustcomm .
-docker run rustcomm
+# Docker image build/run usage
+# ---------------------------
+- cd RustComm
+- docker build -t rustcomm .
+- docker run rustcomm
